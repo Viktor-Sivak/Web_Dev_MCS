@@ -4,25 +4,28 @@
 	background-color: red;
 	height: 60px;
 	width: 1440px;
-	position: relative;
+	display: inline-block;
 	top: 0px;
 }
 
 .heading-header {
-	position: relative;	
+	display: inline-block;
 }
 .heading-header {
 	color: white;
 	font-size: 15px;
-	position: absolute;
-	left: 30px;
-	top: 15px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 30px;
+	
 
 }
 
 section {
 	display: inline-block;
-	vertical-align: top
+	vertical-align: top;
+	margin-top: 100px;
+	margin-left: 30px;
 }
 
 .first {
@@ -30,22 +33,20 @@ section {
 	height: 680px;
 	border: solid black	5px;
 	border-radius: 30px;
-	position: relative;
-	left: 30px;
-	top: 50px;
+	
 
 }
 
 .first-heading {
-	position: relative;
-	left: 15px;
-	top: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 40px;
 }
 
 .first-text {
-	position: relative;
-	left: 15px;
-	top: 40px;
+	display: inline-block;
+	margin-left: 20px;
+
 }
 
 .second {
@@ -53,46 +54,44 @@ section {
 	height: 680px;
 	border: solid black	5px;
 	border-radius: 30px;
-	position: relative;
-	left: 50px;
-	top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 
 }
 
 .second-heading {
-	position: relative;
-	left: 15px;
-	top: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 40px;
 }
 
 .second-text {
-	position: relative;
-	left: 15px;
-	top: 40px;
+	display: inline-block;
+	margin-left: 20px;
+
 }
+
 
 .third {
 	width: 400px;
 	height: 680px;
 	border: solid black	5px;
 	border-radius: 30px;
-	position: relative;
-	left: 80px;
-	top: 50px;
-
 }
 
 .third-heading {
-	position: relative;
-	left: 15px;
-	top: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 40px;
 }
 
 .third-text {
-	position: relative;
-	left: 15px;
-	top: 40px;
+	display: inline-block;
+	margin-left: 20px;
+
 }
+
+
 
 .footer {
 	background-color: red;
@@ -108,18 +107,17 @@ section {
 
 .footer-text {
 	color: white;
-	position: absolute;
+	position: relative;
 	left: 30px;
+	top: 40px;
 }
 
 a {
 	color: white;
-	position: absolute;
-	right: 30px;
-	top: 30px;
+	position: relative;
+	left: 1080px;
+	
 }
-
-
 
 
 
