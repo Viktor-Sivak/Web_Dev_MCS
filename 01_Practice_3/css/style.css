@@ -1,0 +1,79 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.header	{
+	background-color: #E5E000;
+	height: 200px;
+}
+
+.header_heading {
+	line-height: 200px;
+	margin: 0px 0px 0px 50px;
+	text-align: left;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-size: 50px
+}
+
+.image_section {
+	height: 1080px;
+	width: 1440;
+	background-image: url(../img/picture.jpg);
+	background-size: 1000px;
+
+}
+
+.about_nav {
+	background-color: #E5E000;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	font-family: 'Inter', sans-serif;
+	font-size: 30px
+}
+
+
+
+.info_heading {
+	font-family: 'Inter', sans-serif;
+	margin: 80px 0px 0px 50px;
+	font-size: 50px
+}
+
+.info_text {
+	font-family: 'Inter', sans-serif;
+	margin: 30px 0px 100px 50px;
+	font-size: 30px
+}
+
+.footer {
+	background-color: #E5E000;
+	height: 100px;
+}
+
+.footer_text {
+	line-height: 50px;
+	padding: 0px 50px 0px 0px;
+	color: white;
+	text-align: right;
+	font-family: 'Inter', sans-serif;
+	font-weight: lighter;
+	font-size: 20px
+	
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:link {
+  color: white; 
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white; 
+
