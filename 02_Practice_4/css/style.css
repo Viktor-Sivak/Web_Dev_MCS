@@ -1,0 +1,128 @@
+@import url(normalize.css);
+
+.header {
+	background-color: red;
+	height: 60px;
+	width: 1440px;
+	position: relative;
+	top: 0px;
+}
+
+.heading-header {
+	position: relative;	
+}
+.heading-header {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	left: 30px;
+	top: 15px;
+
+}
+
+section {
+	display: inline-block;
+	vertical-align: top
+}
+
+.first {
+	width: 400px;
+	height: 680px;
+	border: solid black	5px;
+	border-radius: 30px;
+	position: relative;
+	left: 30px;
+	top: 50px;
+
+}
+
+.first-heading {
+	position: relative;
+	left: 15px;
+	top: 30px;
+}
+
+.first-text {
+	position: relative;
+	left: 15px;
+	top: 40px;
+}
+
+.second {
+	width: 400px;
+	height: 680px;
+	border: solid black	5px;
+	border-radius: 30px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+
+}
+
+.second-heading {
+	position: relative;
+	left: 15px;
+	top: 30px;
+}
+
+.second-text {
+	position: relative;
+	left: 15px;
+	top: 40px;
+}
+
+.third {
+	width: 400px;
+	height: 680px;
+	border: solid black	5px;
+	border-radius: 30px;
+	position: relative;
+	left: 80px;
+	top: 50px;
+
+}
+
+.third-heading {
+	position: relative;
+	left: 15px;
+	top: 30px;
+}
+
+.third-text {
+	position: relative;
+	left: 15px;
+	top: 40px;
+}
+
+.footer {
+	background-color: red;
+	height: 100px;
+	position: relative;
+	top: 100px;
+	bottom: 0px;
+}
+
+.footer-text {
+	position: relative;	
+}
+
+.footer-text {
+	color: white;
+	position: absolute;
+	left: 30px;
+}
+
+a {
+	color: white;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+
+
+
+
+
+
+
+
