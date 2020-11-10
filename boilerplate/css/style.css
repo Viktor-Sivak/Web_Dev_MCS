@@ -1,1 +1,51 @@
 @import url(normalize.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Смартфон Вертикально */
+@media screen and (max-width: 600px) {
+
+	
+}
+
+/* Смартфон Горизонтально */
+@media screen and (max-width: 960px) {
+
+
+}
+
+/* Ноутбук */
+@media screen and (max-width: 1264px) {
+
+
+}
+
+/* Большой монитор */
+@media screen and (max-width: 1904px) {
+
+
+}
