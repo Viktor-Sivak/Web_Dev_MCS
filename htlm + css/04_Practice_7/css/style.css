@@ -20,10 +20,6 @@
 			margin: auto;
 		}
 
-		.sun:hover {
-			animation: moving 15s infinite linear;
-		}
-
 		.earth {
 			width: 400px;
 			height: 400px;
