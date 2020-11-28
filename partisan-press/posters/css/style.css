@@ -1,0 +1,135 @@
+@import url(normalize.css);
+@font-face {
+	font-family: "Partisanpress";
+	src: url(../fonts/Partisanpress.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OCR";
+	font-weight: bold;
+	src: url(../fonts/OCR55.otf);
+}
+
+html {
+	font-family: 10px;
+}
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+font-family: "OCR" !important;
+}
+
+.container {
+	margin: 0rem 7rem !important;
+}
+
+.ec-store__content-wrapper--wide .page-title__name {
+	font-family: "Partisanpress";
+	font-size: 12rem !important;
+	color: #EA0404;
+	line-height: 9rem !important;
+	text-align: left;
+
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+
+}
+
+.line {
+	height: 2px;
+	width: 100%;
+	color: black;
+}
+
+.link-box {
+	width: 30rem;
+	display: flex;
+	justify-content: space-between;
+}
+.header h1 {
+	font-family: "Partisanpress";
+	font-size: 3rem !important;
+	color: #EA0404;
+	letter-spacing: .1rem;
+	margin: 0;
+	padding: 0;
+}
+
+.header a {
+	font-family: "OCR";
+	color: black;
+}
+
+
+
+
+/* Смартфон Вертикально */
+@media screen and (max-width: 600px) {
+	.container {
+	margin: 0rem 0rem;
+	}
+	.ec-store__content-wrapper--wide .page-title__name {
+	font-family: "Partisanpress";
+	font-size: 6rem !important;
+	color: #EA0404;
+	line-height: 9rem !important;
+	text-align: center;
+	}
+	.header h1 {
+	font-size: 2rem !important;
+	margin-right: 2rem; 
+	}
+
+}
+
+/* Смартфон Горизонтально */
+@media screen and (max-width: 960px) {
+	.container {
+	margin: 0rem 0rem;
+	}
+	.ec-store__content-wrapper--wide .page-title__name {
+	font-family: "Partisanpress";
+	font-size: 12rem !important;
+	color: #EA0404;
+	line-height: 9rem !important;
+	text-align: left;
+	}
+
+	.header h1 {
+	font-size: 2rem !important;
+	margin-right: 1rem;
+	}
+
+}
+
+/* Айпад */
+@media screen and (max-width: 1264px) {
+	.container {
+	margin: 3rem 7rem;
+	}
+	.ec-store__content-wrapper--wide .page-title__name {
+	font-family: "Partisanpress";
+	font-size: 12rem !important;
+	color: #EA0404;
+	line-height: 9rem !important;
+	text-align: left;
+	}
+
+	.header h1 {
+	font-size: 2rem !important;
+	}
+}
+
+/* Большой монитор */
+@media screen and (max-width: 1904px) {
+
+
+}

@@ -1,0 +1,119 @@
+@import url(normalize.css);
+@font-face {
+	font-family: "Partisanpress";
+	src: url(../fonts/Partisanpress.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OCR";
+	src: url(../fonts/OCR55.otf);
+}
+
+html {
+	font-size: 10px;
+}
+
+
+
+.logo {
+	font-family: "Partisanpress";
+	color: #DC0E0E;
+	font-size: 5rem;
+	letter-spacing: .1rem
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: top;
+}
+
+a {
+	font-family: "OCR";
+	font-size: 2rem;
+	color: rgba(0, 0, 0, 0.5);
+	margin-right: 3rem;
+	margin-left: 3rem;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: black
+}
+
+.first-screen h1 {
+	font-family: "Partisanpress";
+	color: #DC0E0E;
+	font-size: 35rem;
+	text-align: center;
+	line-height: 30rem;
+	margin: 8rem 0rem 15rem;
+	padding: 0;
+}
+
+
+.second-screen h1 {
+	font-family: "Partisanpress";
+	color: #DC0E0E;
+	font-size: 24rem;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.second-screen h2 {
+	font-family: "OCR";
+	font-size: 4rem;
+	color: black;
+	font-weight: normal;
+}
+
+
+.second-screen p {
+	font-family: "OCR";
+	font-size: 2rem;
+	color: black;
+	margin: 0;
+	padding: 0;
+
+}
+
+.store {
+	text-align: left;
+	font-family: "OCR";
+}
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+font-family: "OCR" !important;
+}
+
+
+
+
+
+/* Смартфон Вертикально */
+@media screen and (max-width: 600px) {
+
+	
+}
+
+/* Смартфон Горизонтально */
+@media screen and (max-width: 960px) {
+
+
+}
+
+/* Ноутбук */
+@media screen and (max-width: 1264px) {
+
+
+}
+
+/* Большой монитор */
+@media screen and (max-width: 1904px) {
+
+
+}
