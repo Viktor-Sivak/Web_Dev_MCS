@@ -9,23 +9,11 @@ let computer = Math.floor(Math.random() * 3);
 
 // опишем все условия и будем выводить в консоль 'computer win' или 'player win'
 
-if (player==0 && computer==1) {
+if (player==0 && computer==1 || player==1 && computer==2 || player==2 && computer==0) {
 	console.log('player win');
-} else if (player==1 && computer==2) {
-	console.log('player win');
-} else if (player==2 && computer==0) {
-	console.log('player win');
-} else if (computer==0 && player==1) {
+} else if (computer==0 && player==1 || computer==1 && player==2 || computer==2 && player==0) {
 	console.log('computer win');
-} else if (computer==1 && player==2) {
-	console.log('computer win');
-} else if (computer==2 && player==0) {
-	console.log('computer win');
-} else if (computer==0 && player==0) {
-	console.log('draw');
-} else if (computer==1 && player==1) {
-	console.log('draw');
-} else if (computer==2 && player==2) {
+} else if (computer==0 && player==0 || computer==1 && player==1 || computer==2 && player==2) {
 	console.log('draw');
 }
 
