@@ -1,24 +1,219 @@
 @import url(normalize.css);
 
+html {
+	font-size: 10px;
+}
+@font-face {
+	font-family: "Partisanpress";
+	src: url(../fonts/Partisanpress.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OCR";
+	src: url(../fonts/OCR55.otf);
+	font-weight: normal;
+}
+
+.page {
+	margin: 0 15rem;
+}
+
+h1 {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 28rem !important;
+	text-align: left;
+	line-height: 81%;
+}
+
+h2 {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 14rem !important;
+	text-align: left;
+	line-height: 100%;
+}
+
+h3 {
+	font-family: "OCR";
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	font-weight: normal;
+
+}
+
+p {
+	font-family: "OCR";
+	font-size: 1.6rem;
+	margin-top: -.5rem;
+	width: 35vw;
+}
+
+button {
+	height: 120px;
+	width: 560px;
+	background-color: white;
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	font-family: "OCR" !important;
+	font-size: 3.6rem !important;
+	text-transform: uppercase !important;
+	font-weight: normal;
+}
+
+button:hover {
+	height: 120px;
+	width: 560px;
+	background-color: #FAFAFA;
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	font-family: "OCR";
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.logo {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 5rem !important;
+}
+
+a {
+	font-family: "OCR";
+	font-size: 1.6rem;
+	color: black;
+	text-decoration: none;
+	margin: 0 4rem;
+}
+
+a:hover {
+	font-family: "OCR";
+	font-size: 1.6rem;
+	color: black;
+}
+
+/* Общие стили*/
+
+
+/* Стили блоков*/
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 4rem;
+
+}
+
+.second-text-block {
+	margin: 20rem 0;
+}
+
+.poster-screen {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.second-button {
+	margin: -4rem 0 30rem 0;
+}
+
+footer {
+	margin-top: 25rem;
+}
+
+.map-screen {
+	height: 70rem;
+	position: relative;
+	margin: 20rem 0;
+}
+
+.red-point {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #EA0404;
+	margin-bottom: 1.5rem;
+}
+
+.coordinats {
+	width: 25rem;
+	height: 2.5rem;
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	padding: 1rem .5rem;
+	line-height: 0;
+	text-align: center;
+}
+
+.bullet-1, .bullet-2, .bullet-3, .bullet-4, .bullet-5, .bullet-6, .bullet-7, .bullet-8{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+}
+
+.map-heading {
+	left: 318px;
+	top: 309px;
+	position: absolute;
+	line-height: 0;
+}
 
 
 
+.bullet-1 {
+	left: 150px;
+	top: 182px;
+}
 
+.bullet-2 {
+	left: 468px;
+	top: 72px;
+}
 
+.bullet-3 {
+	left: 651px;
+	top: 187px;
+}
 
+.bullet-4 {
+	left: 985px;
+	top: 108px;
+}
 
+.bullet-5 {
+	left: 168px;
+	top: 615px;
+}
 
+.bullet-6 {
+	left: 470px;
+	top: 568px;
+}
 
+.bullet-7 {
+	left: 712px;
+	top: 636px;
+}
 
+.bullet-8 {
+	left: 1000px;
+	top: 542px;
+}
 
-
-
-
-
-
-
-
-
+.bullet-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	left: 15rem;
+}
 
 
 
