@@ -20,7 +20,7 @@ font-family: "OCR" !important;
 }
 
 .container {
-	margin: 0rem 7rem !important;
+	margin: 0rem 15rem !important;
 }
 
 .ec-store__content-wrapper--wide .page-title__name {
@@ -66,6 +66,7 @@ font-family: "OCR" !important;
 .header a {
 	font-family: "OCR";
 	color: black;
+	text-decoration: none;
 }
 
 

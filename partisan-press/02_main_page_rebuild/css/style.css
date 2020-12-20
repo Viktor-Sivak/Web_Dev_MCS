@@ -1,0 +1,476 @@
+/* _________________ ОБЩИЕ СТИЛИ _________________ */
+
+html {
+	font-size: 10px !important;
+}
+
+@font-face {
+	font-family: "Partisanpress";
+	src: url(../fonts/Partisanpress.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OCR";
+	src: url(../fonts/OCR55.otf);
+	font-weight: normal;
+}
+
+
+
+#container {
+	margin: 3rem 15% !important;
+}
+
+h1 {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 26rem !important;
+	text-align: left;
+	line-height: 95%;
+	margin: 0;
+	position: 0;
+}
+
+h2 {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 14rem !important;
+	text-align: left;
+	line-height: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "OCR";
+	font-size: 2rem;
+	
+}
+
+span {
+	font-family: "OCR";
+	font-size: 2rem;
+	margin-top: .5rem; 
+	line-height: 0;
+}
+
+.logo {
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 5rem !important;
+	letter-spacing: 2px;
+}
+
+a {
+	font-family: "OCR";
+	font-size: 2rem;
+	margin-top: -.5rem;
+	width: 35vw;
+	color: black;
+	text-decoration: none;
+	line-height: 170%;
+}
+
+a:hover {
+	font-family: "OCR";
+	font-size: 2rem;
+	margin-top: -.5rem;
+	width: 35vw;
+	color: black;
+	text-decoration: underline;
+}
+
+/* _________________ ОБЩИЕ СТИЛИ _________________ */
+
+
+/* _________________ ХЭДЕР _________________ */
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5rem;
+}
+
+#header-link-2 {
+	margin: 0 4rem;
+}
+/* _________________ ХЭДЕР _________________ */
+
+/* _________________ ПЕРВЫЕ ЗАГОЛОВКИ _________________ */
+
+#start-big-headings {
+	height: 200%;
+	margin: 30rem 0;
+}
+
+#start-heading-2 {
+	margin: 35rem 0;
+}
+
+/* _________________ ПЕРВЫЕ ЗАГОЛОВКИ _________________ */
+
+/* _________________ О ПРОЕКТЕ _________________ */
+
+#about p {
+	width: 40vw;
+}
+
+#about-block-2 {
+	margin: 15rem 0;
+}
+
+/* _________________ О ПРОЕКТЕ _________________ */
+
+/* _________________ БОЛЬШАЯ КНОПКА _________________ */
+
+#to-store {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#to-store-button {
+	width: 100%;
+	height: 50rem;
+	background-color: #EA0404;
+	border: none;
+	font-family: "Partisanpress";
+	color: white;
+	font-size: 14rem !important;
+	line-height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	transition: .5s;
+	outline: none;
+}
+
+#to-store-button:hover {
+	background-color: white;
+	border: solid black 1px;
+	font-family: "Partisanpress";
+	color: #EA0404;
+	font-size: 14rem !important;
+	line-height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	transition: .5s;
+}
+
+/* _________________ БОЛЬШАЯ КНОПКА _________________ */
+
+/* _________________ ЗАГОЛОВОК ИСТОРИИ _________________ */
+
+#story-big-heading {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+/* _________________ ЗАГОЛОВОК ИСТОРИИ _________________ */
+
+/* _________________ ИСТОРИИ _________________ */
+
+
+#stories-block {
+	position: relative;
+	height: 100vh;
+}
+
+#story-block-1 {
+	position: absolute;
+	top: 0;
+}
+
+
+#story-block-2 {
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+#story-block-3 {
+	position: absolute;
+	top: 0;
+	display: none;
+
+
+}
+
+
+#story-block-container-1, #story-block-container-2, #story-block-container-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 10rem; 
+}
+
+.story-block-text {
+	width: 35vw !important;
+
+}
+
+#story-block-pic-button {
+	margin-left: 7rem;
+}
+
+
+#story-block-1-pic {
+	width: 25vw;
+	height: 55vh;
+	background-image: url(../img/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#story-block-2-pic {
+	width: 25vw;
+	height: 55vh;
+	background-image: url(../img/pic-2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#story-block-3-pic {
+	width: 25vw;
+	height: 55vh;
+	background-image: url(../img/pic-3.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.story-button {
+	width: 25vw;
+	font-family: "OCR";
+	font-size: 2rem;
+	height: 4rem;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	padding: 1rem 1rem;
+	line-height: 0;
+	text-align: center;
+	margin-top: 5rem; 
+	background-color: #fff;
+	outline: none;
+	transition: .3s;
+
+}
+
+.story-button:hover {
+	background-color: #EA0404;
+	border: none;
+	color: white;
+	transition: .3s;
+
+}
+
+/* _________________ ИСТОРИИ _________________ */
+
+
+
+/* _________________ ЗАГОЛОВОК КАРТА _________________ */
+
+#map-big-heading {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 20rem;
+}
+
+/* _________________ ЗАГОЛОВОК КАРТА _________________ */
+
+/* _________________ КАРТА _________________ */
+
+.red-point {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #EA0404;
+	cursor: pointer;
+}
+
+.coordinats {
+	height: 3.5rem;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	padding: 1.5rem 1rem;
+	line-height: 0;
+	text-align: center;
+	transition: .3s;
+}
+
+.coordinats:hover {
+	background-color: #EA0404;
+	border: none;
+	color: white;
+	transition: .3s;
+}
+
+
+
+#bullet-1, #bullet-2, #bullet-3, #bullet-4, #bullet-5, #bullet-6, #bullet-7, #bullet-8{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+}
+
+#map-screen-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	margin-bottom: 20rem;
+}
+
+#bullet-1 {
+	left: 0px;
+	top: 200px;
+}
+
+#bullet-2 {
+	left: 350px;
+	top: 100px;
+}
+
+#bullet-3 {
+	right: 220px;
+	top: 230px;
+}
+
+#bullet-4 {
+	right: 0px;
+	top: 140px;
+}
+
+#bullet-5 {
+	left: 40px;
+	top: 715px;
+}
+
+#bullet-6 {
+	left: 300px;
+	top: 600px;
+}
+
+#bullet-7 {
+	left: 500px;
+	top: 800px;
+}
+
+#bullet-8 {
+	right: 60px;
+	top: 680px;
+}
+
+/* _________________ КАРТА _________________ */
+
+/* _________________ ЭКРАНЫ БУЛЛЕТЫ _________________ */
+
+#bullet-1-screen {
+	width: 45vw;
+	position: absolute;
+	top: 720rem;
+	left: 65rem;
+	display: none;
+}
+
+#bullet-1-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-3.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-1-screen p {
+	width: 35vw;
+}
+
+/* _________________ КОНТАКТЫ ЗАГОЛОВОК _________________ */
+
+#contact-big-heading {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 20rem 0;
+}
+
+/* _________________ КОНТАКТЫ ЗАГОЛОВОК _________________ */
+
+/* _________________ КОНТАКТЫ _________________ */
+
+#contact-screen p {
+	width: 40vw;
+}
+
+#contact-text-block-2, #contact-text-block-3, #contact-text-block-4 {
+	margin-top: 15rem;
+}
+
+#contact-text-block-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#contact-text-block-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#bullet-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+/* _________________ КОНТАКТЫ _________________ */
+
+/* _________________ ФУТЕР _________________ */
+
+footer {
+	margin: 15rem 0 5rem 0; 
+}
+
+
+/* Смартфон Вертикально */
+@media screen and (max-width: 600px) {
+
+
+
+
+/* Смартфон Горизонтально */
+@media screen and (max-width: 960px) {
+
+
+}
+
+/* Ноутбук */
+@media screen and (max-width: 1264px) {
+
+
+}
+
+/* Большой монитор */
+@media screen and (max-width: 1904px) {
+
+
+}

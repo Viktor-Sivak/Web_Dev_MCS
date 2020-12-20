@@ -1,19 +1,20 @@
-const bullet1 = document.querySelector (".bullet-1");
-const bullet2 = document.querySelector (".bullet-2");
-const bullet3 = document.querySelector (".bullet-3");
-const bullet4 = document.querySelector (".bullet-4");
-const bullet5 = document.querySelector (".bullet-5");
-const bullet6 = document.querySelector (".bullet-6");
-const bullet7 = document.querySelector (".bullet-7");
-const bullet8 = document.querySelector (".bullet-8");
+const bullet1 = document.getElementById ("bullet-1");
+const bullet2 = document.getElementById ("bullet-2");
+const bullet3 = document.getElementById ("bullet-3");
+const bullet4 = document.getElementById ("bullet-4");
+const bullet5 = document.getElementById ("bullet-5");
+const bullet6 = document.getElementById ("bullet-6");
+const bullet7 = document.getElementById ("bullet-7");
+const bullet8 = document.getElementById ("bullet-8");
 const mapHeading = document.querySelector (".map-heading");
-const firstMapScreen = document.querySelector (".first-map-screen");
-const firstStory = document.querySelector (".first-story-screen")
-const secondStory = document.querySelector (".second-story-screen")
-const thirdStory = document.querySelector (".third-story-screen")
-const firstStoryButton = document.querySelector (".first-story-button")
-const secondStoryButton = document.querySelector (".second-story-button")
-const thirdStoryButton = document.querySelector (".third-story-button")
+const firstMapScreen = document.getElementById ("bullet-1-screen");
+
+const firstStory = document.getElementById ("story-block-1")
+const secondStory = document.getElementById ("story-block-2")
+const thirdStory = document.getElementById ("story-block-3")
+const firstStoryButton = document.getElementById ("1-s-b")
+const secondStoryButton = document.getElementById ("2-s-b")
+const thirdStoryButton = document.getElementById("3-s-b")
 
 firstStoryButton.addEventListener("click", function (){
 	secondStory.style.display = "flex";
@@ -34,7 +35,7 @@ thirdStoryButton.addEventListener("click", function (){
 
 
 bullet1.onmouseover = function (){
-		firstMapScreen.style.display = "flex";
+		firstMapScreen.style.display = "block";
 		bullet8.style.display = "none";
 		bullet7.style.display = "none";
 		bullet6.style.display = "none";
