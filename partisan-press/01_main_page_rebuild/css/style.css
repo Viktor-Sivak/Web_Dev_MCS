@@ -331,7 +331,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	height: 80vh;
+	height: 100vh;
 	margin-bottom: 20rem;
 }
 
@@ -382,7 +382,7 @@ header {
 #bullet-1-screen {
 	width: 45vw;
 	position: absolute;
-	top: 720rem;
+	top: 710rem;
 	left: 65rem;
 	display: none;
 }
