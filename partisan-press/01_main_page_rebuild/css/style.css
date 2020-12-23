@@ -69,6 +69,8 @@ span {
 	text-align: left;
 	line-height: 90%;
 	margin-top: 5rem;
+	margin-left: 0; 
+	transition: .3s;
 }
 
 .nav:hover {
@@ -78,7 +80,10 @@ span {
 	text-align: left;
 	line-height: 90%;
 	margin-top: 5rem;
+	margin-left: 3rem; 
 	text-decoration: none;
+	transition: .3s;
+
 }
 
 
