@@ -106,6 +106,21 @@ a:hover {
 	text-decoration: underline;
 }
 
+#to-store-mobile {
+	display: none;
+}
+
+#about-block-1-img {
+	display: none;
+}
+
+#about-block-2-img {
+	display: none;
+}
+
+#about-block-3-img {
+	display: none;
+}
 /* _________________ ОБЩИЕ СТИЛИ _________________ */
 
 
@@ -591,6 +606,29 @@ footer {
 		font-size: 1.3rem;
 	}
 
+	#to-store-mobile {
+		position: absolute;
+		width: 30%;
+		bottom: 30rem;
+		height: 3.5rem;
+		background-color: #EA0404;
+		display: block;
+		border: none;
+		font-family: "OCR";
+		font-size: 1.3rem;
+		color: white;
+		text-align: center;
+		line-height: 250%;
+	}
+
+	#to-store-mobile:hover {
+		font-size: 1.3rem;
+		text-decoration: none;
+		color: black;
+		background-color: #fff;
+		border: 1px solid black; 
+	}
+
 	.nav {
 	font-size: 4.8rem !important;
 	}
@@ -611,7 +649,7 @@ footer {
 	}
 
 	#start-heading-2 {
-	margin: 50rem 0;
+		margin: 50rem 0;
 	}
 
 
@@ -620,7 +658,38 @@ footer {
 	}
 
 	#about-block-2 {
-	margin: 50rem 0;
+	margin: 10rem 0;
+	}
+
+	#about-block-1-img {
+	display: block;
+	background-image: url(../img/pic-1.png);
+	width: 90vw;
+	height: 35vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	}
+
+	#about-block-2-img {
+	display: block;
+	background-image: url(../img/pic-2.png);
+	width: 90vw;
+	height: 35vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+	#about-block-3-img {
+	display: block;
+	background-image: url(../img/pic-3.png);
+	width: 90vw;
+	height: 35vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	}
 
 
@@ -632,7 +701,7 @@ footer {
 	}
 
 	#to-store {
-		height: 100vh;
+		height: 90vh;
 		margin: 20rem 0
 		
 	}
@@ -640,7 +709,7 @@ footer {
 
 
 	#story-big-heading {
-		margin: -20rem 0 20rem;
+		margin: -10rem 0 0rem;
 		height: 50vh;
 		display: flex;
 		align-items: center;
@@ -722,7 +791,7 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
-		margin: 55rem 0 30rem;
+		margin: 55rem 0 10rem;
 
 	}
 
@@ -800,11 +869,11 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
-		margin: 10rem 0 50rem;
+		margin: 10rem 0 20rem;
 	}
 
 	#contact-text-block-2, #contact-text-block-3, #contact-text-block-4 {
-	margin-top: 40rem;
+	margin-top: 20rem;
 }
 
 	#contact-screen p, a {
