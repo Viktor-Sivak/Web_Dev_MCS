@@ -9,6 +9,7 @@ const bullet8 = document.getElementById ("bullet-8");
 const mapHeading = document.querySelector (".map-heading");
 const firstMapScreen = document.getElementById ("bullet-1-screen");
 
+
 const firstStory = document.getElementById ("story-block-1")
 const secondStory = document.getElementById ("story-block-2")
 const thirdStory = document.getElementById ("story-block-3")
@@ -65,6 +66,7 @@ let menu = document.querySelector('.menu');
 menuBtn.addEventListener('click', function(){
 	menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
+
 })
 
 

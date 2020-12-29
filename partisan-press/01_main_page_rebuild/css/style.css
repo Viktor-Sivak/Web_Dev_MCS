@@ -136,7 +136,7 @@ header {
 	width: 30px;
 	height: 30px;
 	position: relative;
-	z-index:2;
+	z-index:6;
 	overflow: hidden;
 }
 
@@ -172,6 +172,7 @@ header {
 	align-items: center;
 	justify-content: flex-start;
 	margin-left: 23rem;
+	z-index:5;
 }
 
 .menu.active {
