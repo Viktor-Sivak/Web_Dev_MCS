@@ -644,6 +644,7 @@ footer {
 
 	#start-big-headings {
 		margin: 30rem 0 40rem;
+		z-index: -9999;
 	}
 
 	#start-heading-1 {
@@ -662,6 +663,7 @@ footer {
 		color: white;
 		text-align: center;
 		line-height: 250%;
+		z-index: -9999;
 	}
 
 	#to-store-mobile:hover {
