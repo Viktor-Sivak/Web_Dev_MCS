@@ -1,0 +1,92 @@
+.screen-wrapper {
+	display: grid;
+	grid-template-columns: 600px 440px;
+	grid-template-rows: 850px;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 600px 440px;
+	grid-template-rows: 180px;
+}
+
+
+
+.map-wrapper {
+	display: grid;
+	grid-template-columns: 270px 270px;
+	grid-template-rows: repeat(6, 100px);
+	grid-gap: 0px;
+	grid-template-areas: 
+	"1 ."
+	"2 3"
+	". ."
+	"4 5"
+	". 6"
+	"7 8"
+}
+
+.map-point-empty {
+	grid-area: "."
+}
+
+#map-point-1 {
+	grid-area: "1";
+}
+
+#map-point-2 {
+	grid-area: "2";
+}
+
+#map-point-3 {
+	grid-area: "3";
+}
+
+#map-point-4 {
+	grid-area: "4";
+}
+
+#map-point-5 {
+	grid-area: "5";
+}
+
+#map-point-6 {
+	grid-area: "6";
+}
+
+#map-point-7 {
+	grid-area: "7";
+}
+
+#map-point-8 {
+	grid-area: "8";
+}
+
+
+@media (max-width: 767px) {
+
+	.screen-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.map-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 20px 0 0;
+
+
+	}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,120 @@
+@font-face {
+	font-family: "Partisanpress";
+	src: url(../fonts/Partisanpress.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "OCR";
+	src: url(../fonts/OCR55.otf);
+	font-weight: normal;
+}
+
+h1 {
+	font-family: "Partisanpress";
+	font-size: 70px !important;
+	line-height: 70px !important;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	width: 65%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+h2 {
+	font-family: "Partisanpress";
+	font-size: 40px;
+	line-height: 36px;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	width: 65%;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "OCR";
+	font-size: 16px;
+	line-height: 100.2%;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+button {
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+	font-family: "Partisanpress";
+	font-size: 36px;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	text-decoration: none;
+	transition: .2s
+
+}
+
+button:hover {
+	background-color: #EA0404;
+	border: none;
+	color: white;
+}
+
+span {
+	font-family: "OCR";
+	font-size: 16px;
+}
+
+body#ecwid_body {
+	width: 1040px;
+	margin: 20px auto;
+	padding: 80px;
+	border: 1px dashed black;
+
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .grid__categories--medium-items {
+	font-family: "OCR";
+	font-size: 16px;
+	line-height: 100.2%;
+	margin: 0;
+	padding: 0;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .grid__categories--medium-items * {
+    font-size: 40px;
+}
+
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--medium-items {
+    font-family: "OCR";
+	font-size: 16px;
+	line-height: 100.2%;
+	margin: 0;
+	padding: 0;
+}
+
+.product-details__product-sku .ec-text-muted {
+	font-family: "OCR";
+}
+
+.product-details-module__title .ec-header-h6 {
+	font-family: "OCR";
+}
+
+.product-details-module__title .ec-header-h6 .favorite-product__title {
+	font-family: "OCR";
+}
+
+
+
+
+
+
+
+
+
+
