@@ -473,7 +473,7 @@
 
 
 }
-@media (min-width: 991px) and (max-width: 1240px) {
+@media (min-width: 991px) and (max-width: 991px) {
 	#fixed-menu {
 	display: none;
 	}
