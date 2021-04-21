@@ -1,3 +1,69 @@
+const contentTextPress = document.getElementById ("about-press-text");
+const contentTextFont = document.getElementById ("about-font-text");
+const contentTextWords = document.getElementById ("about-words-text");
+const leftSideContent = document.getElementById ("left-about-container");
+const optionPress = document.getElementById ("left-about-press");
+const optionFont = document.getElementById ("left-about-font");
+const optionWords = document.getElementById ("left-about-words");
+
+
+optionPress.style.display = "none";
+optionFont.style.display = "none";
+optionWords.style.display = "none";
+
+
+contentTextPress.onmouseover = function (){
+		optionPress.style.display = "block";
+		leftSideContent.style.display = "none";
+		contentTextWords.style.visibility = "hidden";
+		contentTextFont.style.visibility = "hidden";
+}
+
+contentTextPress.onmouseout = function (){
+		optionPress.style.display = "none";
+		leftSideContent.style.display = "block";
+		contentTextWords.style.visibility = "visible";
+		contentTextFont.style.visibility = "visible";
+}
+
+contentTextFont.onmouseover = function (){
+		optionFont.style.display = "block";
+		leftSideContent.style.display = "none";
+		contentTextWords.style.visibility = "hidden";
+		contentTextPress.style.visibility = "hidden";
+}
+
+contentTextFont.onmouseout = function (){
+		optionFont.style.display = "none";
+		leftSideContent.style.display = "block";
+		contentTextWords.style.visibility = "visible";
+		contentTextPress.style.visibility = "visible";
+}
+
+contentTextWords.onmouseover = function (){
+		optionWords.style.display = "block";
+		leftSideContent.style.display = "none";
+		contentTextFont.style.visibility = "hidden";
+		contentTextPress.style.visibility = "hidden";
+
+}
+
+contentTextWords.onmouseout = function (){
+		optionWords.style.display = "none";
+		leftSideContent.style.display = "block";
+		contentTextPress.style.visibility = "visible";
+		contentTextFont.style.visibility = "visible";
+}
+
+
+
+
+
+
+
+
+
+
 const bullet1 = document.getElementById ("map-point-1");
 const bullet2 = document.getElementById ("map-point-2");
 const bullet3 = document.getElementById ("map-point-3");
@@ -172,3 +238,55 @@ buttonStory9.addEventListener("click", function (){
 	story9.style.display = "none";
 	story1.style.display = "block";
 })
+
+
+
+
+const fixedMenu = document.getElementById ("fixed-menu");
+const iconMenu = document.getElementById ("icon-menu")
+const menuList = document.getElementById ("menu-wrapper");
+
+
+
+fixedMenu.onmouseover = function() {
+	iconMenu.style.transform = 'rotate('+360+'deg)'; 
+	menuList.style.display = "flex";
+}
+
+fixedMenu.onmouseout = function() {
+	iconMenu.style.transform = 'rotate('+0+'deg)'; 
+	menuList.style.display = "none";
+}
+
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+
+})
+
+var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
+    V = .2;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+for (var i = 0; i < linkNav.length; i++) {
+    linkNav[i].addEventListener('click', function(e) { //по клику на ссылку
+        e.preventDefault(); //отменяем стандартное поведение
+        var w = window.pageYOffset,  // производим прокрутка прокрутка
+            hash = this.href.replace(/[^#]*(.*)/, '$1');  // к id элемента, к которому нужно перейти
+        t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
+            start = null;
+        requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
+        function step(time) {
+            if (start === null) start = time;
+            var progress = time - start,
+                r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+            window.scrollTo(0,r);
+            if (r != w + t) {
+                requestAnimationFrame(step)
+            } else {
+                location.hash = hash  // URL с хэшем
+            }
+        }
+    }, false);
+}

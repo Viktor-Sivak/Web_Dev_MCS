@@ -1,0 +1,269 @@
+
+
+@font-face {
+	font-family: "PT Root";
+	src: url(../fonts/PT-Root-UI_Regular.woff);
+	font-weight: bold;
+}
+
+#container {
+	width: 100vw;
+	margin: 0px auto;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-family: "PT Root";
+	color: white;
+	font-size: 64px !important;
+	line-height: 0px;
+	letter-spacing: -0.065em; 
+}
+
+h2 {
+	font-family: "PT Root";
+	color: white;
+	font-size: 64px !important;
+	letter-spacing: -0.065em;
+	margin-top: -55px; 
+
+}
+
+p {
+	font-family: "PT Root";
+	color: white;
+	font-size: 24px;
+	line-height: 103.5%;
+	letter-spacing: -0.045em;
+	width: 25vw;
+	margin: 0px;
+}
+
+
+
+a {	
+	font-family: "PT Root";
+	color: white;
+	font-size: 24px;
+	line-height: 103.5%;
+	letter-spacing: -0.045em;
+}
+
+#header {
+	background-color: black;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+.top-side {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: row;
+}
+
+#header-right-top {
+	text-align: right;
+}
+
+#header-big-arrow {
+	height: 100vh;
+}
+
+.bottom-side {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-end; 
+}
+
+#header-right-bottom {
+	text-align: right;
+}
+
+/* #header-big-arrow {
+	position: absolute;
+	top: 0;
+	left: 650px;
+	height: 100vh;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
+} */
+
+
+.white-block-wrappper {
+	background-color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-block h1 {
+	color: black;
+	text-align: center;
+	line-height: 100%;
+	width: 45vw;
+}
+
+.white-block p {
+	color: black;
+	text-align: center;
+	width: 45vw;
+}
+
+.black-block-wrapper {
+	background-color: black;
+	height: 100vh;
+	position: relative;
+}
+
+.black-block-left-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.black-block-left-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.black-block-right-bottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	background-position: 10px;
+	grid-gap: 10px;
+}
+
+#black-block-pic-1, #black-block-pic-2, #black-block-pic-3, #black-block-pic-4 {
+	height: 48.5vh;
+	width: 31vw;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#black-block-pic-1 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#black-block-pic-2 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#black-block-pic-3 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#black-block-pic-4 {
+	background-image: url(../img/grolli.jpg);
+}
+
+
+
+.galler-block-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10vh; 
+	
+}
+
+#gallery-pic-1, #gallery-pic-2, #gallery-pic-3, #gallery-pic-4 {
+	height: 80vh;
+	width: 60vw;
+	margin-top: 32px; 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#gallery-pic-1 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#gallery-pic-2 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#gallery-pic-3 {
+	background-image: url(../img/grolli.jpg);
+}
+
+#gallery-pic-4 {
+	background-image: url(../img/grolli.jpg);
+}
+
+
+
+#footer {
+	background-color: black;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#footer-right-bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#footer-left-bottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+
+#footer-big-arrow {
+	width: 100vw;
+	margin: auto 0px;
+	display: block;
+}
+
+
+@media (max-width: 767px) {
+
+h1 {
+	font-size: 64px !important;
+	line-height: 80%;
+}
+
+h2 {
+	font-size: 30px !important;
+
+}
+
+p {
+	font-size: 20px;
+}
+
+
+
+
+
+
+

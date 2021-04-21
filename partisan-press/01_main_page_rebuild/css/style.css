@@ -26,7 +26,7 @@ html {
 h1 {
 	font-family: "Partisanpress";
 	color: #EA0404;
-	font-size: 25rem;
+	font-size: 26rem;
 	text-align: left;
 	line-height: 95%;
 	margin: 0;
@@ -249,6 +249,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin: 15rem 0;
 }
 
 #to-store-button {
@@ -443,48 +444,55 @@ header {
 	align-items: center;
 	position: relative;
 	height: 100vh;
-	margin-bottom: 20rem;
+	margin: 20rem 0;
 }
 
 #bullet-1 {
 	left: 0px;
 	top: 200px;
+	display: flex;
 }
 
 #bullet-2 {
 	left: 350px;
 	top: 100px;
+	display: flex;
 }
 
 #bullet-3 {
 	right: 220px;
 	top: 230px;
+	display: flex;
 }
 
 #bullet-4 {
 	right: 0px;
-
 	top: 140px;
+	display: flex;
 }
 
 #bullet-5 {
 	left: 40px;
 	top: 715px;
+	display: flex;
 }
 
 #bullet-6 {
 	left: 300px;
 	top: 600px;
+	display: flex;
 }
 
 #bullet-7 {
-	left: 500px;
+	left: 600px;
 	top: 800px;
+	display: flex;
 }
 
 #bullet-8 {
 	right: 60px;
 	top: 680px;
+	display: flex;
 }
 
 /* _________________ КАРТА _________________ */
@@ -492,14 +500,60 @@ header {
 /* _________________ ЭКРАНЫ БУЛЛЕТЫ _________________ */
 
 #bullet-1-screen {
-	width: 45vw;
+	width: 40vw;
 	position: absolute;
-	top: 710rem;
-	left: 65rem;
+	top: 795rem;
+	left: 75rem;
 	display: none;
 }
 
 #bullet-1-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-1-screen p {
+	width: 30vw;
+}
+
+#bullet-2-screen {
+	width: 40vw;
+	position: absolute;
+	top: 790rem;
+	left: 92rem;
+	display: none;
+}
+
+#bullet-2-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-2-screen p {
+	width: 30vw;
+}
+
+#bullet-3-screen {
+	width: 40vw;
+	position: absolute;
+	top: 800rem;
+	left: 30rem;
+	display: none;
+}
+
+#bullet-3-pic {
 	width: 25vw;
 	height: 35vh;
 	background-image: url(../img/pic-3.png);
@@ -510,10 +564,124 @@ header {
 
 }
 
-#bullet-1-screen p {
-	width: 35vw;
+#bullet-3-screen p {
+	width: 30vw;
 }
 
+#bullet-4-screen {
+	width: 40vw;
+	position: absolute;
+	top: 785rem;
+	left: 50rem;
+	display: none;
+}
+
+#bullet-4-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-4-screen p {
+	width: 30vw;
+}
+
+#bullet-5-screen {
+	width: 40vw;
+	position: absolute;
+	top: 820rem;
+	left: 75rem;
+	display: none;
+}
+
+#bullet-5-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-5-screen p {
+	width: 30vw;
+}
+
+#bullet-6-screen {
+	width: 40vw;
+	position: absolute;
+	top: 810rem;
+	left: 95rem;
+	display: none;
+}
+
+#bullet-6-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-3.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-6-screen p {
+	width: 30vw;
+}
+
+#bullet-7-screen {
+	width: 40vw;
+	position: absolute;
+	top: 820rem;
+	left: 25rem;
+	display: none;
+}
+
+#bullet-7-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-7-screen p {
+	width: 30vw;
+}
+
+#bullet-8-screen {
+	width: 40vw;
+	position: absolute;
+	top: 810rem;
+	left: 35rem;
+	display: none;
+}
+
+#bullet-8-pic {
+	width: 25vw;
+	height: 35vh;
+	background-image: url(../img/pic-2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 5rem;
+
+}
+
+#bullet-8-screen p {
+	width: 30vw;
+}
 /* _________________ КОНТАКТЫ ЗАГОЛОВОК _________________ */
 
 #contact-big-heading {
@@ -673,7 +841,7 @@ footer {
 	#about-block-1-img {
 	display: block;
 	background-image: url(../img/pic-1.png);
-	width: 90vw;
+	width: 85vw;
 	height: 35vh;
 	background-position: center;
 	background-size: cover;
@@ -684,7 +852,7 @@ footer {
 	#about-block-2-img {
 	display: block;
 	background-image: url(../img/pic-2.png);
-	width: 90vw;
+	width: 85vw;
 	height: 35vh;
 	background-position: center;
 	background-size: cover;
@@ -694,7 +862,7 @@ footer {
 	#about-block-3-img {
 	display: block;
 	background-image: url(../img/pic-3.png);
-	width: 90vw;
+	width: 85vw;
 	height: 35vh;
 	background-position: center;
 	background-size: cover;
@@ -710,7 +878,7 @@ footer {
 	}
 
 	#to-store {
-		height: 90vh;
+		height: 70vh;
 		margin: 20rem 0
 		
 	}
@@ -735,7 +903,7 @@ footer {
 
 
 	.story-block-text {
-		width: 90vw !important;
+		width: 85vw !important;
 
 	}
 
@@ -745,7 +913,7 @@ footer {
 
 
 	#story-block-1-pic {
-		width: 90vw;
+		width: 85vw;
 		height: 35vh;
 		background-image: url(../img/pic-1.png);
 		background-position: center;
@@ -754,7 +922,7 @@ footer {
 	}
 
 	#story-block-2-pic {
-		width: 90vw;
+		width: 85vw;
 		height: 35vh;
 		background-image: url(../img/pic-2.png);
 		background-position: center;
@@ -763,7 +931,7 @@ footer {
 	}
 
 	#story-block-3-pic {
-		width: 90vw;
+		width: 85vw;
 		height: 35vh;
 		background-image: url(../img/pic-3.png);
 		background-position: center;
@@ -772,7 +940,7 @@ footer {
 	}
 
 	.story-button {
-		width: 90vw;
+		width: 85vw;
 		font-family: "OCR";
 		font-size: 1.3rem;
 		height: 3rem;
@@ -797,10 +965,8 @@ footer {
 	}
 
 	#map-big-heading {
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		margin: 55rem 0 10rem;
+		display: none;
+
 
 	}
 
@@ -826,59 +992,20 @@ footer {
 	}
 
 	#map-screen-container {
-		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
-		position: relative;
-		margin: 5rem 0;
-	}
-
-
-
-
-	#bullet-1 {
-		left: 0px;
-		top: 80px;
-	}
-
-	#bullet-2 {
-		left: 55px;
-		top: 180px;
-	}
-
-	#bullet-3 {
-		left: 130px;
-		top: 280px;
-	}
-
-	#bullet-4 {
-		left: 55px;
-		top: 380px;
-	}
-
-	#bullet-5 {
 		display: none;
 	}
 
-	#bullet-6 {
-		display: none;
-		
-	}
 
-	#bullet-7 {
-		display: none;
-		
-	}
 
-	#bullet-8 {
-		display: none;
-	}
+
+
+
 
 	#contact-big-heading {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
-		margin: 10rem 0 20rem;
+		margin: 30rem 0 10rem;
 	}
 
 	#contact-text-block-2, #contact-text-block-3, #contact-text-block-4 {
@@ -1146,7 +1273,7 @@ footer {
 		}
 
 	h1 {
-		font-size: 13rem;
+		font-size: 16rem;
 		width: 80vw;
 		}
 
@@ -1183,7 +1310,7 @@ footer {
 	}
 
 	#start-heading-2 {
-		margin: 70rem 0;
+		margin: 50rem 0;
 	}
 
 
@@ -1381,5 +1508,3 @@ footer {
 	}
 
 }
-
-

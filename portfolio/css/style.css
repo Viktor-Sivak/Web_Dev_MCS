@@ -1,0 +1,477 @@
+
+@font-face {
+	font-family: "Helvetica Bold";
+	src: url(../fonts/HelveticaNeueCyr-Bold.woff);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Helvetica Medium";
+	src: url(../fonts/HelveticaNeueCyr-Medium.woff);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Helvetica Roman";
+	src: url(../fonts/HelveticaNeueCyr-Roman.woff);
+	font-weight: normal;
+}
+
+body {
+	background-color: #EBEAEA;
+}
+
+.container {
+	width: 70vw;
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: "Helvetica Bold";
+	font-size: 132px !important;
+	line-height: 88%;
+	letter-spacing: -0.055em;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-family: "Helvetica Medium";
+	font-size: 36px;
+	line-height: 100%;
+	letter-spacing: -0.01em;
+	color: black;
+}
+
+p {
+	font-family: "Helvetica Roman";
+	font-size: 16px;
+	line-height: 100%;
+}
+
+span {
+	font-family: "Helvetica Medium";
+	font-size: 36px;
+	line-height: 100%;
+	letter-spacing: -0.01em;
+	margin-top: -32px;
+	color: #C28E5E;
+
+}
+
+a {
+	font-family: "Helvetica Roman";
+	font-size: 16px;
+	line-height: 100%;
+	color: black;
+	text-decoration-line: underline;
+}
+
+a:hover {
+	text-decoration-line: none;
+	color: #C28E5E;
+}
+
+.line {
+	width: 100%;
+	border: 1px solid #000000;
+	margin-top: -40px; 
+	margin-bottom: 32px; 
+}
+
+header {
+	margin-top: 16px; 
+	height: 100vh;
+}
+
+.top-text {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.main-text {
+	margin-top: 96px; 
+}
+
+.main-text-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-text-wrapper p {
+	text-align: right;
+	min-width: 150px;
+	width: 10%;
+	display: block;
+	 
+}
+
+.description-text {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.description-text-wrapper {
+	width: 20vw;
+	min-width: 370px;
+	margin-right: 128px; 
+}
+
+.description-text-wrapper p {
+	margin-top: -10px;
+}
+
+.bottom-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+	margin-top: 128px; 
+}
+
+.bottom-text-wrapper img{
+	width: 7px;
+	height: 10px;
+}
+
+.bottom-text p {
+	min-width: 150px;
+	width: 10%;
+	text-align: right;
+}
+
+#menu {
+	margin: 128px 0px 128px; 
+}
+
+.menu-selectors {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+
+.cases {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.case-wrapper, .case-wrapper-big  {
+	margin-bottom: 256px;
+}
+
+
+.case-wrapper h2 {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.case-wrapper span {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.case-wrapper-big h2 {
+	width: 35vw;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.case-wrapper-big h2:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #C28E5E;
+
+}
+
+.case-wrapper img{
+	max-width: 30vw;
+	margin-bottom: 128px; 
+	transition: 1s;
+}
+
+.case-wrapper-big img{
+	max-width: 70vw;
+	margin-bottom: 128px; 
+	transition: 1s;
+}
+
+.case-wrapper img:hover, .case-wrapper-big img:hover {
+	transform: scale(1.1);
+}
+
+.mobile-pic {
+	display: none;
+}
+
+#contact {
+	height: 80vh;
+	margin-top: 128px;
+
+}
+
+.bottom-text-left {
+	text-align: left;
+	width: 20vw;
+	margin-top: 256px;
+}
+
+
+
+#maglev-case-text {
+	width: 400px;
+}
+
+#maglev-case-text span:hover h2{
+	display: none;
+}
+
+#maglev-case-text span:hover:before {
+	content:"Безумный стартап в сфере доставки"
+
+}
+
+#veter-case-text {
+	width: 400px;
+}
+
+#veter-case-text span:hover h2{
+	display: none;
+}
+
+#veter-case-text span:hover:before {
+	content:"Сколковский разработчик конвертопланов"
+}
+
+#pridumano-case-text {
+	width: 400px;
+}
+
+#pridumano-case-text span:hover h2{
+	display: none;
+}
+
+#pridumano-case-text span:hover:before {
+	content:"Оформления дизайн-конкурса"
+}
+
+#rms-case-text {
+	width: 400px;
+}
+
+#rms-case-text span:hover h2{
+	display: none;
+}
+
+#rms-case-text span:hover:before {
+	content:"Производитель софт для складских роботов"
+}
+
+#daat-case-text {
+	width: 400px;
+}
+
+#daat-case-text span:hover h2{
+	display: none;
+}
+
+#daat-case-text span:hover:before {
+	content:"Сайт-портфолио студии видеопродакшена"
+}
+
+#grolli-case-text {
+	width: 400px;
+}
+
+#grolli-case-text span:hover h2{
+	display: none;
+}
+
+#grolli-case-text span:hover:before {
+	content:"Лендинг для производителя вертикальных ферм"
+}
+
+
+
+
+#medstep-case-text {
+	width: 400px;
+}
+
+#medstep-case-text span:hover h2{
+	display: none;
+}
+
+#medstep-case-text span:hover:before {
+	content:"Каталог хирургического оборудования"
+}
+
+
+#respublika-case-text {
+	width: 400px;
+}
+
+#respublika-case-text span:hover h2{
+	display: none;
+}
+
+#respublika-case-text span:hover:before {
+	content:"Коллобарация с магазином Республика"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	
+	.container {
+		width: 90vw;
+	}
+	.line {
+	width: 90vw; 
+	margin-top: -24px; 
+	margin-bottom: 24px; 
+	}
+	
+	h1 {
+		font-size: 72px !important;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	span {
+		font-size: 30px;
+	}
+	p {
+		font-size: 12px;
+	}
+	a {
+		font-size: 12px;
+	}
+	
+	.main-text {
+		margin-top: 32px; 
+	}
+
+	.main-text-wrapper {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+
+	}
+
+	.main-text-wrapper p {
+		display: none;
+	}
+
+	.description-text-wrapper p {
+		width: 70vw;
+	}
+
+	.bottom-text {
+		margin-top: 48px; 
+		align-items: center;
+	}
+
+	.bottom-text-wrapper img{
+		width: 5px;
+		height: 8px;
+	}
+
+	.menu-selectors {
+		margin-top: 64px;
+	}
+
+	.menu-selectors h2 {
+		width: 90vw;
+		margin-top: -1vw;
+
+	}
+
+	.case-wrapper img{
+	max-width: 90vw;
+	margin-bottom: 32px; 
+	transition: 1s;
+	}
+
+	.case-wrapper-big img{
+	max-width: 90vw;
+	margin-bottom: 32px; 
+	transition: 1s;
+	}
+
+	.case-wrapper h2 {
+	width: 70vw;
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+
+	.case-wrapper-big h2 {
+	width: 80vw;
+	text-decoration: underline;
+	cursor: pointer;
+	}
+	#respublika-case-text, #medstep-case-text, #grolli-case-text, #daat-case-text, #rms-case-text, #pridumano-case-text, #veter-case-text, #maglev-case-text  {
+		width: 70vw;
+	}
+
+	.mobile-pic {
+	display: block;
+	}
+
+	.desktop-pic {
+		display: none;
+	}
+
+	.bottom-text-left {
+	text-align: left;
+	width: 50vw;
+	margin-top: 12px;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+

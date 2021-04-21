@@ -6,9 +6,17 @@ const bullet5 = document.getElementById ("bullet-5");
 const bullet6 = document.getElementById ("bullet-6");
 const bullet7 = document.getElementById ("bullet-7");
 const bullet8 = document.getElementById ("bullet-8");
+const bulletCont = document.getElementById ("bullet-8");
+
 const mapHeading = document.querySelector (".map-heading");
 const firstMapScreen = document.getElementById ("bullet-1-screen");
-
+const secondMapScreen = document.getElementById ("bullet-2-screen");
+const thirdMapScreen = document.getElementById ("bullet-3-screen");
+const fourthMapScreen = document.getElementById ("bullet-4-screen");
+const fifthMapScreen = document.getElementById ("bullet-5-screen");
+const sixthMapScreen = document.getElementById ("bullet-6-screen");
+const seventhMapScreen = document.getElementById ("bullet-7-screen");
+const eighthMapScreen = document.getElementById ("bullet-8-screen");
 
 const firstStory = document.getElementById ("story-block-1")
 const secondStory = document.getElementById ("story-block-2")
@@ -44,6 +52,7 @@ bullet1.onmouseover = function (){
 		bullet4.style.display = "none";
 		bullet3.style.display = "none";
 		bullet2.style.display = "none";
+		bullet1.style.display = "flex";
 		mapHeading.style.display = "none"
 }
 
@@ -56,6 +65,189 @@ bullet1.onmouseout = function (){
 		bullet4.style.display = "flex";
 		bullet3.style.display = "flex";
 		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet2.onmouseover = function (){
+		secondMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "none";
+		bullet6.style.display = "none";
+		bullet5.style.display = "none";
+		bullet4.style.display = "none";
+		bullet3.style.display = "none";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet2.onmouseout = function (){
+		secondMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet3.onmouseover = function (){
+		thirdMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "none";
+		bullet6.style.display = "none";
+		bullet5.style.display = "none";
+		bullet4.style.display = "none";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet3.onmouseout = function (){
+		thirdMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet4.onmouseover = function (){
+		fourthMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "none";
+		bullet6.style.display = "none";
+		bullet5.style.display = "none";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "none";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet4.onmouseout = function (){
+		fourthMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet5.onmouseover = function (){
+		fifthMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "none";
+		bullet6.style.display = "none";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "none";
+		bullet3.style.display = "none";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet5.onmouseout = function (){
+		fifthMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet6.onmouseover = function (){
+		sixthMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "none";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "none";
+		bullet4.style.display = "none";
+		bullet3.style.display = "none";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet6.onmouseout = function (){
+		sixthMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block";
+}
+
+bullet7.onmouseover = function (){
+		seventhMapScreen.style.display = "block";
+		bullet8.style.display = "none";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "none";
+		bullet5.style.display = "none";
+		bullet4.style.display = "none";
+		bullet3.style.display = "none";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet7.onmouseout = function (){
+		seventhMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
+		mapHeading.style.display = "block"
+}
+
+bullet8.onmouseover = function (){
+		eighthMapScreen.style.display = "block";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "none";
+		bullet6.style.display = "none";
+		bullet5.style.display = "none";
+		bullet4.style.display = "none";
+		bullet3.style.display = "none";
+		bullet2.style.display = "none";
+		bullet1.style.display = "none";
+		mapHeading.style.display = "none"
+}
+
+bullet8.onmouseout = function (){
+		eighthMapScreen.style.display = "none";
+		bullet8.style.display = "flex";
+		bullet7.style.display = "flex";
+		bullet6.style.display = "flex";
+		bullet5.style.display = "flex";
+		bullet4.style.display = "flex";
+		bullet3.style.display = "flex";
+		bullet2.style.display = "flex";
+		bullet1.style.display = "flex";
 		mapHeading.style.display = "block"
 }
 
