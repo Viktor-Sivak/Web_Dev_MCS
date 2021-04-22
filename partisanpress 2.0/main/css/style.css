@@ -35,7 +35,7 @@ h2 {
 p {
 	font-family: "OCR";
 	font-size: 16px;
-	line-height: 100.2%;
+	line-height: 110.2%;
 	width: 90%;
 	margin: 0;
 	padding: 0;
@@ -187,6 +187,7 @@ p {
 
 #left-about h1 {
 	margin-top: 120px !important;
+	margin-bottom: 450px !important;
 }
 
 #left-about-container p {
@@ -195,7 +196,7 @@ p {
 }
 
 .option-block-onmouse img {
-	width: 90%;
+	width: 80%;
 	margin-top: 120px !important;
 
 }
@@ -235,8 +236,9 @@ p {
 
 
 #left-story h1 {
-	margin-top: 150px !important;
-	margin-bottom: 190px !important;
+	margin-top: 120px !important;
+	margin-bottom: 325px !important;
+	width: 80%;
 }
 
 #right-story {
@@ -247,31 +249,30 @@ p {
 }
 
 .story-text-wrapper h2 {
-	margin: 20px 0 8px 0;
+	margin: 30px 0 8px 0;
+	width: 100%;
 }
 
-.story-text-wrapper {
-	margin-top: 50px;
 
-}
 .story-text-wrapper img {
-	width: 90%;
+	width: 80%;
+	margin-top: -20px;
 }
 
 
 .story-button {
- 	font-family: "OCR";
-	font-size: 14px;
-	line-height: 100.2%;
- 	border: 1px solid black;
- 	box-sizing: border-box;
- 	background-color: white;
- 	padding: 5px 20px 10px 20px;
- 	width: 230px;
- 	transition: .2s;
- 	text-decoration: none;
- 	color: black;
- 	text-align: center;
+ 	border: 1px solid #000000;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+	font-family: "Partisanpress";
+	font-size: 36px;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	text-decoration: none;
+	padding: 10px 30px 5px;
+	transition: .2s
+	width: 200px;
 
  	position: absolute;
  	bottom: -25px;	
@@ -283,9 +284,10 @@ p {
 
 .story-button:hover {
 	background-color: #EA0404;
-  	color: white;
-  	border: 1px solid #EA0404;
-}
+	border: none;
+	color: white;
+} 
+
 
 #left-map {
 	display: flex;
@@ -314,18 +316,35 @@ p {
 
 #left-contact h1 {
 	margin-top: 120px !important;
+	margin-bottom: 455px !important;
 }
 
-.text-block {
-	margin-top: 40px;
+
+#contact-text-block-1 {
+	margin-top: -40px; 
 }
+
 
 #right-contact {
 	margin-top: 120px;
 }
 
 #right-contact h2 {
-	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+#right-contact a {
+	color: black;
+}
+
+#right-contact a:hover {
+	text-decoration: none;
+}
+
+#right-contact p {
+	width: 100%;
 }
 
 footer a {
