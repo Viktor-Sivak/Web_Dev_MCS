@@ -11,6 +11,7 @@ optionPress.style.display = "none";
 optionFont.style.display = "none";
 
 
+
 contentTextPress.onmouseover = function (){
 		optionPress.style.display = "block";
 		leftSideContent.style.display = "none";
