@@ -374,9 +374,7 @@ footer a {
 #fixed-menu {
 	position: fixed;
 	top: 20px;
-	background-color: white;
 	right: 150px;
-	height: 100vh;
 	width: 150px;
 }
 
