@@ -12,8 +12,8 @@
 
 h1 {
 	font-family: "Partisanpress";
-	font-size: 116px !important;
-	line-height: 116px;
+	font-size: 200px !important;
+	line-height: 88.5%;
 	letter-spacing: 0.015em;
 	color: #EA0404;
 	width: 65%;
@@ -39,6 +39,17 @@ p {
 	width: 90%;
 	margin: 0;
 	padding: 0;
+}
+
+span {
+	font-family: "Partisanpress";
+	font-size: 200px !important;
+	line-height: 88.5%;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	width: 65%;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 
 
@@ -137,7 +148,7 @@ p {
 
 .partisanpress-site {
 	width: 1040px;
-	margin: 20px auto;
+	margin: 63px auto;
 	border: 1px dashed black;
 }
 
@@ -145,235 +156,9 @@ p {
 	border-bottom: 1px dashed black;
 }
 
-
-.left-side {
-	border-right: 1px dashed black;
-	margin-left: 40px 
-}
-
-.right-side {
-	margin: 40px;
-}
-
-.text-block {
-	width: 80%;
-}
-.text-block h2 {
-	margin-bottom: 8px;
-}
-
-
-
-
-
-#left-welcome h1 {
-	margin-top: 250px !important;
-	margin-bottom: 200px !important;
-}
-
-#right-welcome {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 40px; 
-	margin-top: -125px;
-}
-
-#right-welcome h2 {
-	margin-bottom: 8px;
-	width: 100%;
-}
-
-
-#left-about h1 {
-	margin-top: 120px !important;
-	margin-bottom: 450px !important;
-}
-
-#left-about-container p {
-	width: 70%;
-	margin-top: 230px;
-}
-
-.option-block-onmouse img {
-	width: 80%;
-	margin-top: 120px !important;
-
-}
-
-.option-block-onmouse p {
-	width: 70%;
-	margin-top: 20px !important;
-}
-
-
-.about-text-container {
-	margin-top: 80px !important;
-}
-
-.about-text-block {
-	margin-top: 40px;
-}
-
-.about-text-block h2 {
-	width: 100%;
-	margin-bottom: 8px;
-}
-
-
-
-
-
-#right-shop {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-#right-shop h2 {
-	width: 70%;
-}
-
-
-
-#left-story h1 {
-	margin-top: 120px !important;
-	margin-bottom: 325px !important;
-	width: 80%;
-}
-
-#right-story {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-}
-
-.story-text-wrapper h2 {
-	margin: 30px 0 8px 0;
-	width: 100%;
-}
-
-
-.story-text-wrapper img {
-	width: 80%;
-	margin-top: -20px;
-}
-
-
-.story-button {
- 	border: 1px solid #000000;
-	box-sizing: border-box;
-	text-align: center;
-	background-color: white;
-	font-family: "Partisanpress";
-	font-size: 36px;
-	letter-spacing: 0.015em;
-	color: #EA0404;
-	text-decoration: none;
-	padding: 10px 30px 5px;
-	transition: .2s
-	width: 200px;
-
- 	position: absolute;
- 	bottom: -25px;	
-}
-
-.story-button:visited {
-	text-decoration: none;
-}
-
-.story-button:hover {
-	background-color: #EA0404;
-	border: none;
-	color: white;
-} 
-
-
-#left-map {
-	display: flex;
-	align-items: center;
-}
-
-.right-map-text-wrapper{
-	margin-top: 90px;
-
-}
-
-.map-text-wrapper h2 {
-	margin: 20px 0 8px 0;
-}
-
-.map-text-wrapper {
-	margin-top: 90px;
-	display: none;
-
-}
-
-.map-text-wrapper img {
-	width: 90%;
-}
-
-
-#left-contact h1 {
-	margin-top: 120px !important;
-	margin-bottom: 455px !important;
-}
-
-
-#contact-text-block-1 {
-	margin-top: -40px; 
-}
-
-
-#right-contact {
-	margin-top: 120px;
-}
-
-#right-contact h2 {
-	margin-top: 40px;
-	margin-bottom: 8px;
-	width: 100%;
-}
-
-#right-contact a {
-	color: black;
-}
-
-#right-contact a:hover {
-	text-decoration: none;
-}
-
-#right-contact p {
-	width: 100%;
-}
-
-footer a {
-	text-decoration: none;
-}
-
-#left-footer h2 {
-	margin-top: 80px !important;
-
-}
-
-#right-footer h2 {
-	margin-top: 40px !important;
-	width: 100%;
-	cursor: pointer;
-}
-
-#right-footer a {
-	text-decoration: underline;
-	color: #EA0404;
-	margin: 0;
-	padding: 0;
-}
-
-
-
 #fixed-menu {
 	position: fixed;
-	top: 20px;
+	top: 63px;
 	right: 150px;
 	width: 150px;
 }
@@ -410,4 +195,297 @@ footer a {
 .menu-btn, .menu {
 	display: none;
 }
+
+
+
+.left-side {
+	border-right: 1px dashed black;
+	margin-left: 70px 
+}
+
+.right-side {
+	margin-left: 40px;
+}
+
+.left-side h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.text-block {
+	width: 80%;
+}
+.text-block h2 {
+	margin-bottom: 8px;
+}
+
+
+
+
+
+#left-welcome h1 {
+	margin-top: 100px !important;
+	margin-bottom: 120px !important;
+	position: relative;
+}
+
+#left-welcome img {
+	width: 420px;
+	height: 64px;
+	position: absolute;
+	top: 370px;
+	left: 350px;
+	opacity: 0;
+	transition: .5s;
+}
+
+#left-welcome img:hover {
+	opacity: 1;
+	transition: .5s;
+}
+
+#right-welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 40px; 
+}
+
+#right-welcome h2 {
+	margin-top: -470px;
+	margin-bottom: 8px;
+	width: 100%;
+
+}
+
+
+#left-about-wrapper h2 {
+	margin-top: 40px !important;
+}
+#left-about-wrapper {
+	margin-top: 60px !important;
+	margin-bottom: 40px !important;
+	width: 30%;
+
+}
+
+.change-text-about:hover h1 {
+	display:none
+}
+.change-text-about:hover:before {
+	content:"олд скул тру хайп"
+
+}
+
+
+.option-block-onmouse img {
+	width: 80%;
+	margin-top: 60px !important;
+
+}
+
+.option-block-onmouse p {
+	width: 70%;
+	margin-top: 20px !important;
+}
+
+
+.about-text-container {
+	margin-top: 60px !important;
+}
+
+
+
+.about-text-block {
+	margin-top: 40px;
+}
+
+.about-text-block h2 {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+#right-shop {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#right-shop h2 {
+	width: 70%;
+}
+
+
+
+#left-story-wrapper {
+	margin-top: 100px !important;
+	margin-bottom: 120px !important;
+	width: 80%;
+}
+
+
+.change-text-story:hover h1 {
+	display:none
+}
+.change-text-story:hover:before {
+	content:"дела имеют значение"
+
+}
+
+#right-story {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+.story-text-wrapper h2 {
+	margin: 30px 0 8px 0;
+	width: 100%;
+}
+
+
+.story-text-wrapper img {
+	width: 80%;
+	margin-top: -60px;
+}
+
+
+.story-button {
+ 	border: 1px solid #000000;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+	font-family: "Partisanpress";
+	font-size: 36px;
+	letter-spacing: 0.015em;
+	color: #EA0404;
+	text-decoration: none;
+	padding: 10px 30px 5px;
+	transition: .2s
+	width: 200px;
+
+ 	position: absolute;
+ 	bottom: 65px;	
+}
+
+.story-button:visited {
+	text-decoration: none;
+}
+
+.story-button:hover {
+	background-color: #EA0404;
+	border: none;
+	color: white;
+} 
+
+
+#left-map {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.right-map-text-wrapper{
+	margin-top: 120px;
+
+}
+
+.map-text-wrapper h2 {
+	margin: 20px 0 8px 0;
+}
+
+.map-text-wrapper {
+	margin-top: 90px;
+	display: none;
+
+}
+
+.map-text-wrapper img {
+	width: 90%;
+}
+
+#left-contact {
+	margin-left: 0 !important;
+	position: relative;
+}
+
+#left-contact h1 {
+	margin-top: 190px !important;
+	margin-bottom: 150px !important;
+	text-align: center;
+	
+	width: 100%;
+}
+
+#left-contact img {
+	width: 61px;
+	height: 130px;
+	position: absolute;
+	top: 370px;
+	left: 165px;
+	opacity: 0;
+	transition: .5s;
+
+}
+
+#left-contact img:hover {
+	opacity: 1;
+}
+
+#left-contact h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#contact-text-block-1 {
+	margin-top: 70px; 
+}
+
+
+#right-contact {
+	margin-top: 120px;
+}
+
+#right-contact h2 {
+	margin-top: 40px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+#right-contact a {
+	color: black;
+}
+
+#right-contact a:hover {
+	text-decoration: none;
+}
+
+#right-contact p {
+	width: 100%;
+}
+
+#footer {
+	border-bottom: none;
+}
+
+#left-contact a {
+	color: #EA0404;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
 

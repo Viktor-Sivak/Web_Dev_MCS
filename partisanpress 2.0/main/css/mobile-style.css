@@ -1,7 +1,14 @@
 @media (max-width: 767px){
 	h1{
-		font-size: 66px !important;
-		line-height: 66px;
+		font-size:  120px !important;
+		line-height: 110px;
+		letter-spacing: 0.015em;
+		margin-left: 20px !important;
+	}
+
+	span {
+		font-size:  120px !important;
+		line-height: 110px;
 		letter-spacing: 0.015em;
 		margin-left: 20px !important;
 	}
@@ -41,10 +48,10 @@
 		margin-left: 20px !important;
 	}
 
-	.partisanpress-site {
-	width: 350px;
-	margin: 20px auto;
-	border: 1px dashed black;
+		.partisanpress-site {
+		width: 350px;
+		margin: 20px auto;
+		border: 1px dashed black;
 	}
 
 	.right-side {
@@ -60,6 +67,10 @@
 	margin: 0 !important;
 	}
 
+	.left-side h2 {
+		font-size: 24px;
+	}
+
 	.right-side {
 	margin: 0px !important;
 	border-bottom: 1px dashed black;
@@ -70,8 +81,22 @@
 	}
 
 	#left-welcome h1 {
-	margin-top: 100px !important;
-	margin-bottom: 160px !important;
+	margin-top: 60px !important;
+	margin-bottom: 40px !important;
+	}
+
+	#left-welcome img {
+    width: 240px;
+    height: 35px;
+    position: absolute;
+    top: 210px;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+	}
+
+	#left-welcome img:hover {
+    opacity: 1;
 	}
 
 
@@ -90,16 +115,41 @@
 		margin-bottom: 80px;
 	}
 
-
-
-	#left-about h1 {
-	margin-top: 100px !important;
-	margin-bottom: 210px !important;
+	#left-about {
+		height: 505px;
 	}
 
-	#left-about h2 {
-		margin-bottom: 10px;
+
+
+	#left-about-wrapper {
+		margin-top: -90px !important;
+		margin-bottom: -10px !important;
 	}
+	#left-about-wrapper h2 {
+		margin-top: 0 !important;
+	}
+
+
+	#left-about-wrapper h2 {
+	margin-top: 0px !important;
+	}
+	#left-about-wrapper {
+	margin-top: -90px !important;
+	margin-bottom: -10px !important;
+	width: 30%;
+
+	}
+
+	.change-text-about:hover h1 {
+	display:block
+	}
+	.change-text-about:hover:before {
+	content:""
+
+	}
+
+	
+
 
 	#left-about-container p {
 	width: 90%;
@@ -170,9 +220,21 @@
 		height: 505px;
 	}
 
+	#left-story-wrapper {
+		margin: 0;
+	}
+
 	#left-story h1 {
-		margin-top: 100px !important;
-		margin-bottom: 160px !important;
+		margin-top: -150px !important;
+		margin-bottom: -80px !important;
+	}
+
+	.change-text-story:hover h1 {
+	display:block
+	}
+	.change-text-story:hover:before {
+	content:""
+
 	}
 
 
@@ -252,11 +314,31 @@
 		margin-bottom: 80px;
 	}
 
+	#left-contact {
+		height: 505px;
+	}
 
 	#left-contact h1 {
+		margin-left: auto !important;
+		margin-right: auto !important;
 		margin-top: 100px !important;
-		margin-bottom: 180px !important;
+		margin-bottom: 50px !important;
 	}
+
+	#left-contact h2 {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	#left-contact img {
+    width: 41px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 72px;
+    opacity: 0;
+    transition: .5s;
+   }
 
 	#contact-text-block-1 {
 		margin-top: 80px;
@@ -274,22 +356,6 @@
 		margin-bottom: 8px;
 	}
 
-
-
-	#left-footer h2 {
-		margin-top: 20px !important;
-		margin-bottom: 20px;
-
-	}
-
-	#right-footer h2 {
-		margin-bottom: 20px;
-		margin-top: 20px !important;
-	}
-
-	#right-footer {
-		border: none;
-	}
 
 	#fixed-menu {
 	display: none;
@@ -356,7 +422,7 @@
 
 	
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1650px){
 
 .partisanpress-site {
 	margin: 0px auto;

@@ -1,7 +1,7 @@
 const contentTextPress = document.getElementById ("about-press-text");
 const contentTextFont = document.getElementById ("about-font-text");
 const contentTextWords = document.getElementById ("about-words-text");
-const leftSideContent = document.getElementById ("left-about-container");
+const leftSideContent = document.getElementById ("left-about-wrapper");
 const optionPress = document.getElementById ("left-about-press");
 const optionFont = document.getElementById ("left-about-font");
 const optionWords = document.getElementById ("left-about-words");
@@ -278,7 +278,7 @@ menuBtn.addEventListener('click', function(){
 })
 
 var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
-    V = .2;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+    V = .15;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
 for (var i = 0; i < linkNav.length; i++) {
     linkNav[i].addEventListener('click', function(e) { //по клику на ссылку
         e.preventDefault(); //отменяем стандартное поведение
