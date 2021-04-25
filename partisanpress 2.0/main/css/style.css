@@ -229,12 +229,17 @@ span {
 	position: relative;
 }
 
-#left-welcome img {
+
+.head-text-welcome {
+	position: relative;
+}
+
+.head-text-welcome img {
 	width: 420px;
 	height: 64px;
 	position: absolute;
-	top: 370px;
-	left: 350px;
+	top: 200px;
+	left: 0px;
 	opacity: 0;
 	transition: .5s;
 }
