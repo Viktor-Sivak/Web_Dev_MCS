@@ -1,0 +1,156 @@
+/* WELCOME */
+
+#nelzya {
+	height: 66px;
+	width: 385px;
+
+	position: absolute;
+	left: 50px;
+	top: 220px;
+	opacity: 0;
+	transition: .2s;
+}
+
+/* WELCOME */
+
+
+/* WORDS */
+
+.words-image-wrapper img {
+	width: 525px;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+
+/* WORDS */
+
+
+
+/* TECH */
+
+.tech-image {
+	width: 480px;
+	margin-left: 72px;
+	margin-bottom: 10px;
+}
+
+/* TECH */
+
+/* STREET */
+
+#street-left-after p {
+	margin-left: 0 !important;
+}
+
+#street-right-after img {
+	width: 70%;
+	margin-left: 72px;
+	margin-bottom: 32px;
+}
+
+.map-point {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+
+.map-circle {
+ 	height: 20px;
+ 	width: 20px;
+ 	margin-bottom: 5px; 
+ 	background-color: #EA0404;
+ 	border-radius: 20px;
+ 	transition: .2s
+}
+
+.map-circle:hover {
+ 	background-color: white;
+ 	border: 1px solid black;
+ 	box-sizing: border-box;
+}
+
+.map-numbers {
+ 	border: 1px solid black;
+ 	padding: 5px 10px;
+ 	transition: .2s;
+ 	text-align: center;
+}
+
+.map-circle-empty {
+ 	height: 20px;
+ 	width: 20px;
+ 	margin-bottom: 5px; 
+ 	background-color: white;
+ 	border-radius: 20px;
+}
+
+.map-numbers-empty {
+	color: white;
+	font-size: 14px;
+}
+
+.map-numbers-empty {
+ 	border: 1px solid white;
+ 	box-sizing: border-box;
+ 	background-color: white;
+ 	padding: 5px 10px;
+ 	text-align: center;
+}
+
+.map-numbers:hover {
+  	background-color: #EA0404;
+  	color: white;
+  	border: 1px solid #EA0404;
+}
+
+/* STREET */
+
+/* COLLAB */
+
+.collab-image-wrapper img {
+	width: 525px;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+
+/* COLLAB */
+
+
+/* CHARITY */
+
+.charity-image-wrapper img {
+	width: 525px;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+
+/* CHARITY */
+
+
+/* CONTACT */
+
+.contact-image-wrapper img {
+	width: 525px;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+
+/* CONTACT */
+
+
+
+/* WHY */
+
+#xueta {
+	height: 150px;
+	width: 60px;
+
+	position: absolute;
+	left: 165px;
+	top: 170px;
+	opacity: 0;
+	transition: .2s;
+}
+
+/* WHY */
+

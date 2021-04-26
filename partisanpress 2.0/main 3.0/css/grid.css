@@ -1,21 +1,14 @@
 .screen-wrapper {
 	display: grid;
-	grid-template-columns: 600px 440px;
-	grid-template-rows: 850px;
-}
-
-footer {
-	display: grid;
-	grid-template-columns: 600px 440px;
-	grid-template-rows: 180px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 860px;
 }
 
 
-
-.map-wrapper {
+#street-left-after {
 	display: grid;
-	grid-template-columns: 270px 270px;
-	grid-template-rows: repeat(6, 100px);
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(6, 140px);
 	grid-gap: 0px;
 	grid-template-areas: 
 	"1 ."
@@ -61,6 +54,21 @@ footer {
 #map-point-8 {
 	grid-area: "8";
 }
+
+
+@media (max-width: 767px) {
+
+	.map-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 20px 0 0;
+
+
+	}
+
+
+}
+
 
 
 
