@@ -99,19 +99,19 @@ span {
 
 .right-side-3-line .arrow {
 	position: absolute;
-	top: 740px;
+	top: 500px;
 	left: 72px;
 }
 
 .right-side-4-line .arrow {
 	position: absolute;
-	top: 800px;
+	top: 500px;
 	left: 72px;
 }
 
 .right-side-2-line .arrow {
 	position: absolute;
-	top: 660px;
+	top: 500px;
 	left: 72px;
 }
 
@@ -195,10 +195,77 @@ span {
 
 footer {
 	text-align: center;
-	padding: 30px;
+	margin-bottom: 20px;
+}
+
+/* TEST ANIMATION */
+
+
+.partisan-press-site {
+	border: none;
+}
+
+.screen-wrapper {
+	background-color: #fff;
+	border: 1px dashed black;
+	border-bottom: none;
 }
 
 
+#welcome {
+	position: sticky;
+	top: 20px;
+	z-index: 1;
+}
+
+#words {
+	position: sticky;
+	top: 40px;
+	z-index: 2;
+}
+
+#tech {
+	position: sticky;
+	top: 60px;
+	z-index: 3;
+}
+
+#shop {
+	position: sticky;
+	top: 80px;
+	z-index: 4;
+}
+
+#street {
+	position: sticky;
+	top: 100px;
+	z-index: 5;
+}
+
+#collab {
+	position: sticky;
+	top: 120px;
+	z-index: 6;
+}
+
+#charity {
+	position: sticky;
+	top: 140px;
+	z-index: 7;
+}
+
+#why  {
+	position: sticky;
+	top: 160px;
+	z-index: 8;
+}
+
+#contact {
+	position: sticky;
+	top: 180px;
+	z-index: 9;
+	border-bottom: 1px dashed black;
+}
 
 
 

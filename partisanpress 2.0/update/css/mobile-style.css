@@ -1,5 +1,281 @@
 @media (max-width: 767px){
 
+h1{
+	font-size: 110px !important;
+	line-height: 100px;
+	margin-left: 20px !important;
+}
+
+h2 {
+	font-size: 36px !important;
+	margin-left: 20px !important;
+}
+
+h3 {
+	font-size: 22px !important;
+	margin-left: 20px !important;
+}
+
+p {
+	font-size: 14px;
+	margin-left: 20px !important;
+	margin: 0;
+}
+
+.partisan-press-site {
+	margin-top: 20px;
+	width: 90vw;
+	border:none;
+}
+
+.left-side-3-line, .left-side-4-line, .left-side-2-line {
+	width: 90vw;
+	border-bottom: 1px dashed #000;
+	border-right: none;
+	height: 500px;
+}
+
+.left-side-2-line {
+	height: 400px;
+}
+
+.right-side-3-line, .right-side-4-line, .right-side-2-line {
+	width: 90vw;
+	position: relative;
+	height: 500px;
+	margin-top: 50px;
+}
+
+
+.left-side-2-line {
+	margin: 0;
+} 
+
+.right-side-3-line .arrow {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+.right-side-4-line .arrow {
+	position: absolute;
+	top: 450px;
+	left: 20px;
+}
+
+.right-side-2-line .arrow {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+.screen-wrapper {
+	border: 1px dashed #000;
+}
+
+
+
+.left-side-2-line h3 {
+	text-align: center;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.left-side-3-line, .right-side-3-line {
+	padding-top: 65px;
+}
+
+.left-side-3-line h1 {
+	margin-bottom: 65px !important;
+}
+
+.left-side-4-line, .right-side-4-line {
+	padding-top: 28px;
+}
+
+.left-side-4-line h1 {
+	margin-bottom: 28px !important;
+}
+
+.left-side-2-line, .right-side-2-line {
+	padding-top: 135px;
+}
+
+.left-side-2-line h1 {
+	text-align: center;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	margin-bottom: 65px !important;
+
+}
+
+footer p {
+	margin: 0 !important;
+}
+
+
+/* WELCOME */
+
+#nelzya {
+	height: 46px !important;
+	width: 255px !important;
+
+	position: absolute;
+	left: 0px !important;
+	top: 120px !important;
+	opacity: 0;
+	transition: .2s;
+}
+
+/* WELCOME */
+
+
+/* WORDS */
+
+.words-image-wrapper img {
+	width: 80vw !important;
+	margin-left: 20px !important;
+	margin-top: -10px !important;
+}
+
+/* WORDS */
+
+
+
+/* TECH */
+
+.tech-image {
+	width: 80vw !important;
+	margin-left: 20px !important;
+	margin-top: -10px !important;
+}
+
+/* TECH */
+
+/* STREET */
+
+.map-point {
+ 	display: flex;
+ 	flex-direction: row !important;
+ 	justify-content: center !important;
+ 	margin-left: -20px !important;
+}
+
+.map-circle {
+	margin-right: 4px;
+}
+
+
+
+/* STREET */
+
+/* COLLAB */
+
+.collab-image-wrapper img {
+	width: 80vw !important;
+	margin-left: 20px !important;
+	margin-top: -10px !important;
+}
+
+/* COLLAB */
+
+
+/* CHARITY */
+
+.charity-image-wrapper img {
+	width: 80vw !important;
+	margin-left: 20px !important;
+	margin-top: -10px !important;
+}
+
+/* CHARITY */
+
+
+/* CONTACT */
+
+.contact-image-wrapper img {
+	width: 80vw !important;
+	margin-left: 20px !important;
+	margin-top: -10px !important;
+}
+
+/* CONTACT */
+
+
+
+/* WHY */
+
+#xueta {
+	height: 100px !important;
+    width: 40px !important;
+
+	position: absolute;
+	left: 90px !important;
+    top: 90px !important;
+	opacity: 0;
+	transition: .2s;
+
+}
+
+/* WHY */
+
+#welcome {
+	position: sticky;
+	top: 20px;
+	z-index: 1;
+}
+
+#words {
+	position: sticky;
+	top: 40px;
+	z-index: 2;
+}
+
+#tech {
+	position: sticky;
+	top: 60px;
+	z-index: 3;
+}
+
+#shop {
+	position: sticky;
+	top: 80px;
+	z-index: 4;
+}
+
+#street {
+	position: sticky;
+	top: 100px;
+	z-index: 5;
+}
+
+#collab {
+	position: sticky;
+	top: 120px;
+	z-index: 6;
+}
+
+#charity {
+	position: sticky;
+	top: 140px;
+	z-index: 7;
+}
+
+#why  {
+	position: sticky;
+	top: 160px;
+	z-index: 8;
+}
+
+#contact {
+	position: sticky;
+	top: 180px;
+	z-index: 9;
+	border-bottom: 1px dashed black;
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px){
 
 
