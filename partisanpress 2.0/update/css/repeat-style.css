@@ -214,7 +214,7 @@ footer {
 
 #welcome {
 	position: sticky;
-	top: 20px;
+	top: 40px;
 	z-index: 1;
 }
 
@@ -226,43 +226,43 @@ footer {
 
 #tech {
 	position: sticky;
-	top: 60px;
+	top: 40px;
 	z-index: 3;
 }
 
 #shop {
 	position: sticky;
-	top: 80px;
+	top: 40px;
 	z-index: 4;
 }
 
 #street {
 	position: sticky;
-	top: 100px;
+	top: 40px;
 	z-index: 5;
 }
 
 #collab {
 	position: sticky;
-	top: 120px;
+	top: 40px;
 	z-index: 6;
 }
 
 #charity {
 	position: sticky;
-	top: 140px;
+	top: 40px;
 	z-index: 7;
 }
 
 #why  {
 	position: sticky;
-	top: 160px;
+	top: 40px;
 	z-index: 8;
 }
 
 #contact {
 	position: sticky;
-	top: 180px;
+	top: 40px;
 	z-index: 9;
 	border-bottom: 1px dashed black;
 }
